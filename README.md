@@ -1,6 +1,7 @@
-Сlicker written in one script and it includes:
-•	basic clicker functions
-•	upgrade-shop
+Сlicker written in one script and it includes: 
+
+•	basic clicker functions 
+•	upgrade-shop 
 •	achievement window
 •	task window
 •	casino
