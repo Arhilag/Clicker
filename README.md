@@ -1,4 +1,5 @@
 Сlicker written in one script and it includes: 
+
 •	basic clicker functions
 •	upgrade-shop 
 •	achievement window
