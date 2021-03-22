@@ -1,4 +1,3 @@
-﻿// Script by Android Helper [Clicker Tutorial] //
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
@@ -141,10 +140,7 @@ public class Game : MonoBehaviour
             score += offlineBonus;
             MassageText.text = ("Вы отсутствовали: \n" + ts.Days + "Д. " + ts.Hours + "Ч. " + ts.Minutes + "М. " + ts.Seconds + "С." + "\n" +
             "Ваши рабочие заработали: \n" + offlineBonus + "$");
-            //Debug.Log(dateTime);
-            //Warning.text = (deltaSeconds + "");
-            //WarningObj.SetActive(true);
-            //StartCoroutine(NullWar());
+            
         }
         
         
@@ -574,32 +570,32 @@ public class Game : MonoBehaviour
     }
 #endif
 
-    public void showShopPan() // Рассказывал в уроке #2
+    public void showShopPan() 
     {
-        shopPan.SetActive(!shopPan.activeSelf); // Рассказывал в уроке #2
+        shopPan.SetActive(!shopPan.activeSelf); 
     }
 
-    public void showMessPan() // Рассказывал в уроке #2
+    public void showMessPan() 
     {
-        MassegePan.SetActive(!MassegePan.activeSelf); // Рассказывал в уроке #2
+        MassegePan.SetActive(!MassegePan.activeSelf); 
     }
 
-    public void showQuestPan() // Рассказывал в уроке #2
+    public void showQuestPan() 
     {
-        QuestPan.SetActive(!QuestPan.activeSelf); // Рассказывал в уроке #2
+        QuestPan.SetActive(!QuestPan.activeSelf); 
     }
 
-    public void showTavernPan() // Рассказывал в уроке #2
+    public void showTavernPan() 
     {
-        TavernPan.SetActive(!TavernPan.activeSelf); // Рассказывал в уроке #2
+        TavernPan.SetActive(!TavernPan.activeSelf); 
     }
 
-    public void InfoTavPan() // Рассказывал в уроке #2
+    public void InfoTavPan() 
     {
-        InfoPan.SetActive(!InfoPan.activeSelf); // Рассказывал в уроке #2
+        InfoPan.SetActive(!InfoPan.activeSelf);
     }
 
-    public void OnClick() // Рассказывал в уроке #1
+    public void OnClick() 
     {
         score += scoreIncrease; // К игровой валюте прибавляем бонус при клике
     }
@@ -783,4 +779,3 @@ public class Save
     public bool[] flagQuest;
     public int[] date = new int[6];
 }
-// End of script by Android Helper [Clicker Tutorial] //
